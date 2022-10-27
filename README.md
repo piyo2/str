@@ -38,7 +38,7 @@ Applying user-defined filter:
 	->hankaku()
 	->fn(fn ($s) => '#' . $s)
 	->applyTo('　１２３');
-// => "123"
+// => "#123"
 ```
 
 Retain control characters:
